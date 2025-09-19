@@ -120,7 +120,6 @@ app.use(generalLimiter);
 
 // Secure static file serving
 const path = require('path');
-const fs = require('fs');
 
 // Validate file path to prevent directory traversal
 const validateFilePath = (req, res, next) => {
